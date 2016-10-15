@@ -1,0 +1,59 @@
+html, body {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+nav{
+	display: block;
+	position: absolute;
+	box-sizing: border-box;
+	top: 0;
+	right: 0;
+	z-index: 9000;
+	padding: .5em 1em .5em 1em;
+	width: 2em;
+	height: 2em;
+	text-align: center;
+	background: red;
+	border-radius: 0 0 0 100%;
+	transition: all 1s;
+	overflow: hidden;
+}
+
+nav *:first-child {
+	position: absolute;
+	right: .2em;
+	top: 0;
+	cursor: pointer;
+	clear: both;
+}
+
+nav.open {
+	width: 100%;
+	height: 100%;
+	border-radius: 0;
+}
+
+nav a {
+	display: block;
+	font-size: 4em;
+	color: #000;
+	font-family: arial;
+	text-decoration: none;
+	margin-top: .2em;
+}
+
+body {
+	background-image: url("background.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-color: black;
+}
+
+h1 {
+	text-align: center;
+	color: white;
+	font-size: 50px;
+}
+
