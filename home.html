@@ -8,15 +8,29 @@
 <link rel="stylesheet" type="text/css" media="screen" href="style.css">
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script src="code.js"></script>
+
+<!-- For Google Sign In -->
+  <script src="https://apis.google.com/js/platform.js?onload=renderButton" async defer></script>
+
+  <script src="https://apis.google.com/js/client:platform.js?onload=renderButton" async defer></script>
+
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+  <script src="https://apis.google.com/js/api:client.js"></script>
 </head>
 
 <body>
 <h1>Developers Against Humanity</h1>
-<!-- <nav data-action="expand">
-<span>&#9776;</span>
-<a href="#">Page1</a>
-<a href="#">Page2</a>
-</nav> -->
+
+<div class="Login">
+  <!-- HTML for render Google Sign-In button -->
+  <!--<div id="gSignIn"></div> -->
+  <!-- HTML for displaying user details -->
+  <div class="userContent"></div>
+
+  <!-- In the callback, you would hide the gSignInWrapper element on a
+  successful sign in -->
+  <div id="gSignInWrapper"></div>
+  <div id="name"></div>
 
 
 </body>
