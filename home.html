@@ -4,8 +4,8 @@
 <meta charset="utf-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="description" content="description">
-<title>Cards Against Humanity</title>
-<link rel="stylesheet" type="text/css" media="screen" href="style.css">
+<title>Developers Against Humanity</title>
+<link rel="stylesheet" type="text/css" media="screen" href="assets/style.css">
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script src="code.js"></script>
 
@@ -19,19 +19,28 @@
 </head>
 
 <body>
-<h1>Developers Against Humanity</h1>
+<div class="container" id="container">
+  <div id="animation"><h1>Developers<br>Against<br>Humanity</h1></div>
 
-<div class="Login">
-  <!-- HTML for render Google Sign-In button -->
-  <!--<div id="gSignIn"></div> -->
-  <!-- HTML for displaying user details -->
-  <div class="userContent"></div>
+  <div class="login">Login:</div>
 
-  <!-- In the callback, you would hide the gSignInWrapper element on a
-  successful sign in -->
-  <div id="gSignInWrapper"></div>
-  <div id="name"></div>
+  <div class="directionsTitle">Your Dumb Directions:</div>
+  <div class="directions">The game is simple. Each round, one player asks a question from a black card, and everyone else answers with their funniest white card.</div>
 
+  <div class="usersLive"></div>
+
+  <div class="scores">Scores:</div>
+
+  <div class="judge">Judge This Round:</div>
+</div>
+
+<div class="container2">
+  <div class="blackCard">Black Card Goes Here After Login</div>
+
+  <div class="whiteCards">White Cards Go Here</div>
+
+  <div class="winningCard"></div>
+</div>
 
 </body>
 </html>

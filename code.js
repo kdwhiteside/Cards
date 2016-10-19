@@ -7,3 +7,6 @@ window.addEventListener("load",function(){
 	});
 });
 
+$(document).ready(function(){
+    $("h1").animate({right: '500px'});
+}); 
