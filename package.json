@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/tiffihaag/cardgame/issues"
   },
-  "homepage": "https://github.com/tiffihaag/cardgame#readme"
+  "homepage": "https://github.com/tiffihaag/cardgame#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "method-override": "^2.3.6",
+    "mysql": "^2.11.1",
+    "sequelize": "^3.24.4"
+  }
 }
