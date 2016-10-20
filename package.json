@@ -17,6 +17,13 @@
     "sequelize": "^3.23.4"
   },
   "devDependencies": {
-    "handlebars-helper-css": "^0.1.0"
+    "handlebars-helper-css": "^0.1.0",
+  "homepage": "https://github.com/tiffihaag/cardgame#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "method-override": "^2.3.6",
+    "mysql": "^2.11.1",
+    "sequelize": "^3.24.4"
   }
 }
