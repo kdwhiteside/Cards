@@ -94,3 +94,36 @@ $( document ).ready(function() {
     console.log(error);
     //$(".AfterLogin").hide();
     }
+
+
+
+    var People = [
+  {
+    username: "Tiffany",
+    password: "coding"
+  },
+  {
+    username: "Jennifer",
+    password: "coding"
+  }
+    username: "Walid",
+    password: "coding"
+  }
+  {
+    username: "Kevin",
+    password: "coding"
+  }
+]
+
+
+function getInfo(){
+  var username = document.getElementById("username").value
+  var password = document.getElementById("password").value
+  console.log("You are logged in as" + username);
+
+  for(i = 0; i < People.length; i++){
+    if (username == People[i].username && password == People[i].password) {
+      console.log(username + "is logged in.")
+    }
+  }
+}

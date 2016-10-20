@@ -17,10 +17,14 @@ h1 {
 	background-color: white;
 	color: black;
 }
-.login{
-	border-radius: 10px;
-	float: right;
+.myform {
 	margin: 10px 10px 0px 0px;
+	float: right;
+}
+.login{
+	float: right;
+	margin: 0px 10px 0px 5px;
+	color: black;
 }
 
 /* Header animation*/
