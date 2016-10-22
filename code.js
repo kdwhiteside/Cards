@@ -1,3 +1,8 @@
+var express = require('express');
+var bodyParser = require('body-parser');
+var methodOverride = require('method-override');
+
+
 window.addEventListener("load",function(){
 	$.each($('nav[data-action="expand"]*:first-child'), function(){
 		$(this).on("click", function(){
@@ -10,3 +15,7 @@ window.addEventListener("load",function(){
 $(document).ready(function(){
     $("h1").animate({right: '500px'});
 }); 
+
+app.listen(process.env.PORT || 3000, function(){
+  console.log("Express server listening on port %d in %s mode", this.address().port, app.settings.env);
+});
