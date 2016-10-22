@@ -2,7 +2,7 @@
   "name": "cardgame",
   "version": "1.0.0",
   "description": "a horrible game for developers",
-  "main": "app.js",
+  "main": "code.js",
   "dependencies": {
     "body-parser": "^1.15.2",
     "express": "^4.14.0",
